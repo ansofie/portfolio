@@ -1,3 +1,69 @@
-li{
-	color: red;
+body{
+	width: 100%;
+	float: left;
+	position: relative;
 }
+.navigation{
+	width: 20%;
+	position: fixed;
+}
+	.navigation img{
+		width: 60%;
+		margin-left: 20%;
+		margin-bottom: 20%;
+	}
+	.navigation ul{
+		list-style: none;
+	}
+	.navigation li{
+		font-size: 2.5em;
+		margin-bottom: 10%;
+		text-align: right;
+		margin-right: 30%;
+	}
+	.navigation li a{
+		text-decoration: none;
+		color: #000;
+
+	}
+
+.wrapper{
+	width: 80%;
+	margin-left: 20%;
+}
+
+	.header img{
+		width: 100%;
+	}
+		.project{
+			float: left;;
+			width: 100%;
+		}
+			.project1 img{
+				margin-left: 50%;
+				width: 25%;
+			}
+			.project2 img:nth-of-type(1){
+				width: 50%;
+				float: left;
+			}
+			.project2 img:nth-of-type(2){
+				margin-left: 25%;
+				width: 25%;
+			}
+			.project3 img{
+				margin-left: 50%;
+				width: 50%;
+			}
+	.contact{
+
+	}
+		.contact a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #000;
+			font-size: 1.5em;
+			margin-right: 10%;
+		}
+
+
