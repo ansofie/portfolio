@@ -1,45 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+h1 {
+	font-size: 5.9vw;
+}
+h2 {
+	font-size: 3.0vh;
+}
+p {
+	font-size: 2vmin;
+}
+
 body{
-	width: 100%;
+	font-family: Raleway;
+	font-weight: 300;
 	float: left;
 	position: relative;
 }
 .navigation{
-	width: 20%;
 	position: fixed;
 }
 	.navigation img{
-		width: 60%;
-		margin-left: 20%;
-		margin-bottom: 20%;
+		padding-top: 5vh;
 	}
 	.navigation ul{
+		margin-top: 6vh;
 		list-style: none;
 	}
 	.navigation li{
-		font-size: 2.5em;
-		margin-bottom: 10%;
+		line-height: 5vh;
+		font-size: 2vw;
 		text-align: right;
-		margin-right: 30%;
 	}
 	.navigation li a{
 		text-decoration: none;
+		text-transform: uppercase;
 		color: #000;
 
 	}
 
-.wrapper{
-	width: 80%;
-	margin-left: 20%;
-}
+	.about{
+
+	}
+		.about h1{
+			margin-top: 4vh;
+		}
+
 
 	.header img{
-		width: 100%;
 	}
 		.project{
-			float: left;;
-			width: 100%;
+			margin-top: 6vh;
 		}
-			.project1 img{
+/*			.project1 img{
 				margin-left: 50%;
 				width: 25%;
 			}
@@ -54,7 +67,8 @@ body{
 			.project3 img{
 				margin-left: 50%;
 				width: 50%;
-			}
+			}*/
+
 	.contact{
 
 	}
@@ -67,3 +81,13 @@ body{
 		}
 
 
+
+/* bootstrap tweeks */
+.container-full {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nopadding {
+	padding: 0 !important;
+}
